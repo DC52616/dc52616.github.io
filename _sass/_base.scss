@@ -87,20 +87,20 @@
   --z-tooltip: 1070;
 }
 
-/* Dark Theme (Deep Blue with Bright Accents) */
+/* Dark Theme (Deep Space with Soft Blue Accents) */
 [data-theme="dark"] {
-  --primary-color: #b3e5fc;
+  --primary-color: #90caf9;
   --primary-dark: #ffffff;
-  --secondary-color: #81d4fa;
-  --accent-color: #4fc3f7;
+  --secondary-color: #64b5f6;
+  --accent-color: #42a5f5;
   --background-color: #0d1b2a;
   --surface-color: #1a237e;
-  --text-primary: #e3f2fd;
-  --text-secondary: #4fc3f7;
-  --text-muted: #81d4fa;
-  --border-color: #2196f3;
-  --shadow-color: rgba(79, 195, 247, 0.4);
-  --shadow-hover: rgba(79, 195, 247, 0.6);
+  --text-primary: #eceff1;
+  --text-secondary: #80deea;
+  --text-muted: #4fc3f7;
+  --border-color: #1976d2;
+  --shadow-color: rgba(33, 150, 243, 0.25);
+  --shadow-hover: rgba(33, 150, 243, 0.4);
 
   /* Code Blocks - Dark */
   --code-bg: #1e1e1e;
