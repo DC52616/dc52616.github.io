@@ -8,7 +8,7 @@ layout: default
       <div class="hero-info-wrapper">
         <div class="hero-text">
            <h1 class="hero-name">{{ site.author | default: "Your Name" }}</h1>
-           <p class="hero-title">Robotics & Mechatronics</p>
+           <p class="hero-title">Bringing ideas to life with engineering</p>
         </div>
         
         <div class="hero-actions">
@@ -28,7 +28,7 @@ layout: default
   <div class="container">
     <div class="section-header">
       <h2>Portfolio</h2>
-      <p class="section-subtitle">A curated collection of my research and design</p>
+      <p class="section-subtitle">Some of my favorite personal and coursework projects</p>
     </div>
     
     <div class="projects-grid-featured">
@@ -116,42 +116,44 @@ layout: default
 <div class="skills-section">
   <div class="container">
     <div class="skills-content">
-      <h2>Technical Expertise</h2>
+      <h2>Technical Skills</h2>
       <div class="skills-grid">
         <div class="skill-category">
-          <h3><i class="fas fa-robot"></i> Robotics</h3>
+          <h3><i class="fas fa-cogs"></i> Design/Manufacturing</h3>
           <div class="skill-tags">
-            <span class="skill-tag">ROS</span>
-            <span class="skill-tag">Kinematics</span>
-            <span class="skill-tag">Path Planning</span>
-            <span class="skill-tag">SLAM</span>
+            <span class="skill-tag">CAD/CAM/FEA</span>
+            <span class="skill-tag">Prototyping</span>
+            <span class="skill-tag">3D Printing</span>
+            <span class="skill-tag">Laser Cutting</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Software</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Fusion</span>
+            <span class="skill-tag">Onshape</span>
+            <span class="skill-tag">Arduino</span>
+            <span class="skill-tag">MATLAB</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Shop Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Mill</span>
+            <span class="skill-tag">Lathe</span>
+            <span class="skill-tag">Welding</span>
+            <span class="skill-tag">Casting</span>
+            <span class="skill-tag">Woodworking</span>
           </div>
         </div>
         <div class="skill-category">
           <h3><i class="fas fa-microchip"></i> Electronics</h3>
           <div class="skill-tags">
             <span class="skill-tag">Arduino</span>
-            <span class="skill-tag">ESP32</span>
-            <span class="skill-tag">PCB Design</span>
+            <span class="skill-tag">Soldering</span>
+            <span class="skill-tag">Circuits</span>
             <span class="skill-tag">Sensors</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <h3><i class="fas fa-code"></i> Programming</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">C/C++</span>
-            <span class="skill-tag">MATLAB</span>
-            <span class="skill-tag">JavaScript</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <h3><i class="fas fa-cube"></i> CAD/Design</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">SolidWorks</span>
-            <span class="skill-tag">Fusion 360</span>
-            <span class="skill-tag">3D Printing</span>
-            <span class="skill-tag">KiCad</span>
+            <span class="skill-tag">Motors/Actuators</span>
           </div>
         </div>
       </div>
